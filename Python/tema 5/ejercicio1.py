@@ -6,5 +6,5 @@ def triangulo(a,b):
 
 areaCirculo = lambda r: (math.pi * r**2)/2 
 
-print(triangulo(2,2))
-print(areaCirculo(4))
+print(f'El area de el triangulo es: {triangulo(5,2)}.')
+print(f'El area de el ciculo es: {areaCirculo(10)}.')
