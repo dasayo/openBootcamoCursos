@@ -4,6 +4,10 @@ class Vehiculo:
         self._ruedas: int = 4
         self._puertas: int  = 2
 
+    def __del__(self):
+        print('destruyendo')
+        pass
+
     def getColor(self):
         return self._color
 
