@@ -11,6 +11,8 @@ peliculasVistas = {
         'pelicula2':'Doctor Strange',
         'pelicula3':'Los secretos de dumbledore'
         }
+keys = peliculasVistas.keys()
+print(keys)
 print(nombre)
 print(apellido)
 print(edad)
